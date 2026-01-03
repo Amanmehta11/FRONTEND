@@ -1,0 +1,13 @@
+.red{
+    color: rgb(216, 238, 17);
+    background-color: blue;
+    margin: 2px;
+    padding: 0%;
+    margin-left: auto;
+}
+#bgcolor{
+    background-color: aqua;
+}
+#bgcolor2{
+    background-color: rgb(133, 133, 16);
+}

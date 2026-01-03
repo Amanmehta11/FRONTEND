@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display Properties</title>
+  </head>
+  <style>
+    .box1 {
+      background-color: blue;
+      display: inline;
+      margin: 10px;
+      padding: 3px;
+      border: 2px solid black;
+    }
+    .box2 {
+      background-color: yellow;
+      display: block;
+      display: flex;
+      justify-content: end;
+      margin: 10px;
+      padding: 3px;
+      outline: 2px solid grey;
+    }
+    .box3 {
+      background-color: aqua;
+      display: inline-block;
+      display: flex;
+      justify-content: center;
+      margin: 10px;
+      padding: 3px;
+      border: 2px solid black;
+      box-sizing: border-box;
+      box-shadow: 5px 5px 10px 2px yellow;
+    }
+  </style>
+  <body>
+    <div class="box1">Hey this is an block element</div>
+    <span class="box2"> Hey this is an span </span>
+    <span class="box3"> Hey this is an span </span>
+    <!-- box-shadow:horizontal vertical blur spread color! -->
+  </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors</title>
+    <style>
+        /* class selector */
+        .aqua{
+            background-color: aqua;
+        }
+        /* id selector */
+        #blue{
+            background-color: blue;
+        }
+        /* parent selector */
+        span >p{
+            color: yellow;
+        }
+        /* ascendent selector */
+        div p{
+            color: rgb(185, 238, 13);
+        }
+        /* universal selector */
+        *{
+            margin: 0%;
+            padding: 0px;
+        }
+        /* pseudo selector */
+        a:visited{
+            color: rgb(3, 3, 17);
+        }
+        a:active{
+            background-color: aqua;
+        }
+        a:hover{
+            background-color: yellow;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="aqua">
+        this is a Class selector
+    </div>
+    <div id="blue">this is a ID selector        
+    </div>
+    <span>
+        <p>this is span's child para </p>
+    </span>
+    <div>
+        <main>this is  mian content
+            <p>
+                this is ascendent content
+            </p>
+        </main>
+    </div>
+    <a href="https://www.google.com">Go to Google</a>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="post">
+        <caption>Emplyoyee Details!</caption><br><br>
+        <div>
+        <label for="">Name: </label>
+        <input type="text" name="Your name"  placeholder="Enter your name">
+        </div>
+        <div>
+        <label for="">Email: </label>
+        <input type="text" name="mail"  placeholder="Enter your Email" required>
+        </div>
+        <div>
+        <label for="">Contact: </label>
+        <input type="text" name="contact "  placeholder="Enter your Contact">
+        </div>
+        <div>
+        <label for="">Password: </label>
+        <input type="password" name="password"  placeholder="Enter your Password">
+        </div>
+        <div>
+        <label for="">Choose your gender</label><br>
+        
+        <input type="radio" name="gender" value="male" id="Male">
+        <label for="Male">Male</label>
+        
+        <input type="radio" name="gender" value="Female" id="Female">
+        <label for="Female">Female</label>
+        </div> 
+        
+        <div>
+            <label for="">Select yor Languages:</label><br>
+            <input type="checkbox" name="python" value="yes" id="python">
+            <label for="python">Python</label>
+            <input type="checkbox" name="Java" value="yes" id="Java">
+            <label for="Java">Java</label>
+            <input type="checkbox" name="C++" value="yes" id="C++">
+            <label for="C++">C++</label>
+        </div>
+        <div>
+            <textarea name="text" id="input" rows="4" cols="40" placeholder="Enter you Feedback!"></textarea>
+        </div>
+        <div>
+            <label for="">Select your Fav Fruits</label><br>
+            <select name="fruits" id="">
+                <option value="apple">Apple</option>
+                <option value="Mango">Mango</option>
+                <option value="Banana">Banana</option>
+                <option value="Grapes">Grapes</option>
+            </select>
+        </div><br><br>
+        <button style="align-content: center;">SUBMIT</button>
+    </form>
+</body>
+</html>

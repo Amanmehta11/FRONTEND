@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Flexbox</title>
+    <style>
+      .boxes {
+        border: 2px solid red;
+        height: 50vh;
+        /*width: 100%;*/
+        display: flex;
+        justify-content: center; /*moves items horizontally (Acc. to Main Axis)*/
+
+        /* justify-content: space-around;
+        justify-content: space-between;*/
+
+        align-items: center; /*moves items vartically (Acc. to Main Axis)*/
+        align-content: center;
+
+        /*  justify-items: center; */
+
+        flex-wrap: wrap;
+        /* flex-direction:row-reverse;*/
+
+        gap:30px 20px;
+        /*or*/
+        /*gap:30px 40px, (row,coloumn)*/
+      }
+      .box {
+        border: 2px solid black;
+        height: 40px;
+        width: 40px;
+        /*margin: 6px;*/
+
+      }
+      .box1{
+        flex-grow: 2;
+        /*flex-shrink:1 without wrap*/
+        /*flex-self:flex-end;*/
+      }
+    </style>
+  </head>
+  <body>
+    <div class="boxes">
+      <div class="box box1">box 1</div> 
+      <div class="box">box 2</div>
+      <div class="box">box 3</div>
+      <div class="box">box 4</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+      <div class="box">box 5</div>
+    </div>
+  </body>
+</html>

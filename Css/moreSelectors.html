@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>more CSS selectors</title>
+    <style>
+        /*.box:first-child{
+            background-color: aqua;
+        }*/
+        /*
+        .box:nth-child(odd){
+            background-color:beige ;
+        }*/
+        /*.box::first-letter{
+            color: blue;
+        }*/
+        [data-color="primary"]{
+            background-color: aqua;
+        }
+        .boxes::before{
+            content: "This is a before content";
+        }
+        input::placeholder{
+            color: grey;
+            box-shadow: 2px 2px 3px 2px grey;
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div data-color="primary" class="box">i am a first line</div>
+        <div class="box">i am a second line</div>
+        <div class="box">i am a third line</div>
+        <input type="text" placeholder="enter Name">
+    </div>
+</body>
+</html>
